@@ -14,7 +14,9 @@ p {
 	
 	background-color: grey;
 	margin-bottom: 0%;
-	padding: 5px;
+	padding: 30px 15px 15px 15px;
+	
+
 	
 
     
@@ -28,46 +30,50 @@ section{
 	
 }
 
+#beeftitile div, #chickentitle div, #sushititle div{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 90px;
 
+
+
+}
 
 #chicken{
-	width: 30%;
-	height: 10%;
-	background-color: red;
+	background-color: blue;
 	text-align: center;
 	border: 2px solid black;
-	position: relative;
-	top: 0px;
-	left: 0px;
-	margin-left: 70%
+	width: 90px
+	height: 10%;
+	
+	
 	
 
 
 }
 #beef{
-	width: 30%;
-	height: 10%;
-	background-color: blue;
+	
+	background-color: red;
 	text-align: center;
 	border: 2px solid black;
+	width: 90px
+	height: 10%;
 
-	position: relative;
-	right: 0px;
-	top: 0px;
-	margin-left: 70%;
+
+	
 	
 
 }
 #sushi{
-	width: 30%;
-	height: 10%;
+	
 	background-color: green;
 	text-align: center;
 	border: 2px solid black;
-	position: relative;
-	right: 0px;
-	top: 0px;
-	margin-left: 70%
+	width: 90px
+	height: 10%;
+
+	
 
 }
 .row{
@@ -117,28 +123,11 @@ section{
 	.col-lg-12{
 		width: 100% 
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 }
 /**medium device only**/
 @media(min-width:768px) and (max-width: 991px)
 {
-	#shushi{
-		width: 100%;
-}
-
+	
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,.col-md-9, .col-md-10, .col-md-11,
 	.col-md-12{
 		float: left;
@@ -179,6 +168,14 @@ section{
 	}
 	.col-md-12{
 		width: 100% 
+	}
+
+	@media(){
+		.col-sd-12{
+			float: left;
+			width: 100%
+		}
+
 	}
 
 
